@@ -1,5 +1,0 @@
-# Ignore all HTML and CSS files in src and src-tauri directories
-src/**/*.html    export-ignore
-src/**/*.css     export-ignore
-src-tauri/**/*.html export-ignore
-src-tauri/**/*.css  export-ignore

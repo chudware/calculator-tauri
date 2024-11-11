@@ -1,6 +1,5 @@
-*.css linguist:ignore
-*.html linguist:ignore
-src/*.css linguist:ignore
-src/*.html linguist:ignore
-src-tauri/*.css linguist:ignore
-src-tauri/*.html linguist:ignore
+# Ignore all HTML and CSS files in src and src-tauri directories
+src/**/*.html    export-ignore
+src/**/*.css     export-ignore
+src-tauri/**/*.html export-ignore
+src-tauri/**/*.css  export-ignore

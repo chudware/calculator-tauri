@@ -1,0 +1,105 @@
+.operator-btn{
+  background-color: orange;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#display {
+  width: 100%;
+  padding: 20px;
+  font-size: 5rem;
+  text-align: left;
+  border: none;
+}
+
+#calculator {
+  max-width: 500px;
+  overflow: hidden;
+}
+
+#keys {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 10px;
+  padding: 25px;
+  background-color: #272727;
+}
+
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color: #0f0f0f;
+  background-color: #f6f6f6;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+button {
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+  border: none;
+  font-size: 3em;
+  font-weight: bold;
+  font-family: inherit;
+  color: #0f0f0f;
+  background-color: hsl(0, 0%, 30%);
+  transition: border-color 0.25s;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: hsl(0, 0%, 40%);
+}
+button:active{
+  background-color: hsl(0, 0%, 50%);
+}
+.operator-btn{
+  background-color: hsl(35, 100%, 55%);
+}
+.operator-btn:hover{
+  background-color: hsl(35, 100%, 65%);
+}
+.operator-btn:active{
+  background-color: hsl(35, 100%, 75%);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color: #f6f6f6;
+    background-color: #2f2f2f;
+  }
+
+  a:hover {
+    color: #24c8db;
+  }
+
+  input,
+  button {
+    color: #ffffff;
+    background-color: #0f0f0f98;
+  }
+  button:active {
+    background-color: #0f0f0f69;
+  }
+}

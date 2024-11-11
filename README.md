@@ -1,7 +1,21 @@
-# Tauri + Vanilla TS
+# _calculator-tauri_
 
-This template should help get you started developing with Tauri in vanilla HTML, CSS and Typescript.
+Calculator desktop app built with web technologies and Tauri.
 
-## Recommended IDE Setup
+## Tech:
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+- JavaScript
+- Tauri
+
+## Installation:
+
+```sh
+gh repo clone chudware/calculator-tauri
+cd calculator-tauri
+yarn install
+```
+
+## Run:
+```sh
+yarn tauri dev
+```

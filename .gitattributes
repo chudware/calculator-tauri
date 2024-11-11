@@ -1,2 +1,6 @@
 *.css linguist:ignore
 *.html linguist:ignore
+src/*.css linguist:ignore
+src/*.html linguist:ignore
+src-tauri/*.css linguist:ignore
+src-tauri/*.html linguist:ignore
